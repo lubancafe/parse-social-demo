@@ -93,7 +93,7 @@ if (DASHBOARD_USER) {
                 masterKey: MASTER_KEY,
 				javascriptKey: "NOT USED",
 				restKey: "NOT USED",		
-				production: true,				
+				production: false,				
                 iconName : 'parse-logo.png'
             }
         ],
