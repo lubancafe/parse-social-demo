@@ -1,6 +1,6 @@
 {
   "name": "parse-server-w-dashboard",
-  "version": "1.4.1",
+  "version": "1.0.0",
   "description": "An example Parse API server using the parse-server module with parse dashboard",
   "main": "index.js",
   "repository": {
@@ -9,11 +9,11 @@
   },
   "license": "MIT",
   "dependencies": {
-    "express": "~4.11.x",
+    "express": "~4.14.x",
     "kerberos": "~0.0.x",
-    "parse": "~1.8.0",
-    "parse-server": "~2.2.12",
-	"parse-dashboard": "~2.0.0"
+    "parse": "~1.9.0",
+    "parse-server": "~2.2.16",
+	"parse-dashboard": "^1.0.14"
   },
   "scripts": {
     "start": "node index.js"
