@@ -91,6 +91,9 @@ if (DASHBOARD_USER) {
                 serverURL: SERVER_URL,
                 appId    : APP_ID,
                 masterKey: MASTER_KEY,
+				javascriptKey: "NOT USED",
+				restKey: "NOT USED",		
+				production: true				
                 iconName : 'parse-logo.png'
             }
         ],
