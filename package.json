@@ -1,11 +1,11 @@
 {
-  "name": "parse-server-example",
-  "version": "1.4.0",
-  "description": "An example Parse API server using the parse-server module",
+  "name": "parse-server-w-dashboard",
+  "version": "1.4.1",
+  "description": "An example Parse API server using the parse-server module with parse dashboard",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ParsePlatform/parse-server-example"
+    "url": "https://github.com/lubancafe/parse-social-demo"
   },
   "license": "MIT",
   "dependencies": {
