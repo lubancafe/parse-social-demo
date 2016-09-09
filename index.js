@@ -7,7 +7,7 @@ const ParseDashboard = require('parse-dashboard');
 const path           = require('path');
 
 // Parse configuration
-const PORT            = process.env.PORT || 1337;
+const PORT            = process.env.PORT || 8080;
 const DATABASE_URI    = process.env.DATABASE_URI || process.env.MONGOLAB_URI || 'mongodb://localhost:27017/dev';
 const SERVER_URL      = process.env.SERVER_URL || 'http://localhost:1337/parse';
 const APP_ID          = process.env.APP_ID || 'myAppId';
