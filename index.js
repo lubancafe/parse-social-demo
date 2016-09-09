@@ -84,6 +84,7 @@ const DASHBOARD_USER     = process.env.DASHBOARD_USER;
 const DASHBOARD_PASSWORD = process.env.DASHBOARD_PASSWORD;
 if (DASHBOARD_USER) {
     const dashboard = new ParseDashboard({
+		"allowInsecureHTTP": true,	
         apps       : [
             {
                 appName  : APP_NAME,
